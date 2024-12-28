@@ -12,7 +12,7 @@ Change link colours with the textColor attribute.
 ### 1. Include the Script
 Add the following script to your project to include the component:
 
-    <script src="https://cdn.jsdelivr.net/gh/jerrellniu>/vertical-nav/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/jerrellniu/vertical-nav/script.js"></script>
     
 ### Usage
 #### Basic Implementation
