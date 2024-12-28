@@ -1,4 +1,4 @@
-llniu## Vertical Navigation Component
+## Vertical Navigation Component
 A lightweight and customisable Web Component that creates a vertical navigation bar. This component leverages modern JavaScript and Shadow DOM for encapsulated styles and functionality, ensuring seamless integration into any project.
 
 ### Features
