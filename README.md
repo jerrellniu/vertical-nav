@@ -1,4 +1,4 @@
-## Vertical Navigation Component
+llniu## Vertical Navigation Component
 A lightweight and customisable Web Component that creates a vertical navigation bar. This component leverages modern JavaScript and Shadow DOM for encapsulated styles and functionality, ensuring seamless integration into any project.
 
 ### Features
@@ -12,19 +12,17 @@ Change link colours with the textColor attribute.
 ### 1. Include the Script
 Add the following script to your project to include the component:
 
-    <script src="https://cdn.jsdelivr.net/gh/<your-username>/<your-repository>@<version>/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/jerrellniu>/vertical-nav/script.js"></script>
     
-Replace <your-username>, <your-repository>, and <version> with the appropriate values.
-
 ### Usage
 #### Basic Implementation
 Include the <vertical-nav> component in your HTML:
 
-<vertical-nav side="left" textColor="blue">
-  <a href="#section1">Section 1</a>
-  <a href="#section2">Section 2</a>
-  <a href="#section3">Section 3</a>
-</vertical-nav>
+    <vertical-nav side="left" textColor="blue">
+      <a href="#section1">Section 1</a>
+      <a href="#section2">Section 2</a>
+      <a href="#section3">Section 3</a>
+     </vertical-nav>
 
 ### Attributes
 side:
@@ -38,35 +36,35 @@ textColor:
 ### Slot Content
 The <slot> element allows you to insert custom content such as links:
 
-<vertical-nav side="right" textColor="red">
-  <a href="#about">About Us</a>
-  <a href="#services">Our Services</a>
-  <a href="#contact">Contact</a>
-</vertical-nav>
+    <vertical-nav side="right" textColor="red">
+      <a href="#about">About Us</a>
+      <a href="#services">Our Services</a>
+      <a href="#contact">Contact</a>
+    </vertical-nav>
 
 ## Example
 ### Full Example with Styles
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/gh/<your-username>/<your-repository>@<version>/script.js"></script>
-  <title>Vertical Navigation Example</title>
-</head>
-<body>
-  <vertical-nav side="left" textColor="green">
-    <a href="#home">Home</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
-  </vertical-nav>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/gh/jerrellniu/vertical-nav@<version>/script.js"></script>
+      <title>Vertical Navigation Example</title>
+     </head>
+    <body>
+      <vertical-nav side="left" textColor="green">
+         <a href="#home">Home</a>
+         <a href="#portfolio">Portfolio</a>
+         <a href="#contact">Contact</a>
+      </vertical-nav>
   
-  <div id="home" style="margin-top: 200px;">Home Section</div>
-  <div id="portfolio" style="margin-top: 200px;">Portfolio Section</div>
-  <div id="contact" style="margin-top: 200px;">Contact Section</div>
-</body>
-</html>
+       <div id="home" style="margin-top: 200px;">Home Section</div>
+       <div id="portfolio" style="margin-top: 200px;">Portfolio Section</div>
+       <div id="contact" style="margin-top: 200px;">Contact Section</div>
+      </body>
+      </html>
 
 ## Customisation
 ### Adjust the Component's CSS
@@ -77,11 +75,11 @@ Modify the component's styles by editing the template in the script.js file:
 The component hides below 768px by default. You can modify this behaviour in the CSS:
 
 
-@media (max-width: 768px) {
-  :host {
-    display: none;
-  }
-}
+    @media (max-width: 768px) {
+       :host {
+        display: none;
+       }
+      }
 ## Browser Compatibility
 This component uses modern JavaScript and Web Components APIs. It is supported in the following browsers:
 * Chrome: v67+
